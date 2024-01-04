@@ -4,18 +4,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* box-shadow: 0 0 4px #0095ff; */
 }
 
 html{
-  font-size: 8px;
+  font-size: 62.5%;
   font-family: 'Titillium Web', sans-serif;
+  scroll-behavior: smooth;
 }
 
-/* @media only screen and (max-width: 441px) {
-  html{
-    font-size: 8px;
-  }
-} */
+
+:root{
+  --fs-1: 1.2rem;
+  --fs-2: 1.9368rem;
+  --fs-3: 3.125rem;
+}
+
+
 .copyright{
   position: fixed;
   bottom: 1rem;
@@ -33,14 +38,8 @@ html{
 }
 
 .scroll_smooth{
-  perspective: 1px;
-  height: 100vh;
+  height: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
-}
-
-.gap100vh{
-  height: 100vh;
 }
 
 /* section 1 */
@@ -49,57 +48,69 @@ html{
   background: url("/assets/img/background/background.png") no-repeat, #922323;
   -webkit-background-size: cover;
   background-size: cover;
-  width: 100vw;
-  padding-bottom: 80vh;
+  width: 100%;
+  position: relative;
+  /* padding-bottom: 80%; */
 }
 
-.fixed_text_000{
+.intro_text{
   background-color: transparent;
-  transform: translateZ(-2.5px) scale(3.5);
   overflow: hidden;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 0.75rem;
+  text-align: center;
+  font-size: 3.75rem;
   color: #fff;
   z-index: 100;
+  transform: translateY(-40svh);
 }
 
-.fixed_text_000 .line{
-  width: 2.7rem;
+.line{
+  width: 6vw;
+  height: .15rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
 }
 
-.fixed_text_code_no{
-  font-size: 2.75rem;
+.introCode{
+  font-size: 1.75rem;
+  margin: 2rem;
 }
 
-.ditf_background_01 .background_01_base{
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 85%, rgba(255,255,255,1)), url("/assets/img/items/strelizia_full.jpg") no-repeat center;
+.introCode span{
+  display: block;
+  color: #fff;
+  font-size: 8vw;
+}
+
+.background_01_base{
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 85%, rgba(255,255,255,1)), url("/assets/img/items/strelizia_full.png") no-repeat center;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  height: 100svh;
   -webkit-filter: brightness(1) contrast(3) grayscale(1);
   -ms-filter: brightness(1) contrast(3) grayscale(1);
   filter: brightness(1) contrast(3) grayscale(1);
   mix-blend-mode: multiply;
-  transform: translateZ(0) scale(1);
 }
 
 
-.ditf_background_01 .hiro_zero_two{
+.hiro_zero_two{
   background: url("/assets/img/items/hiro_zero_two.png") no-repeat top;
   -webkit-background-size: contain;
   background-size: contain;
   min-height: 100%;
-  padding-bottom: 100vh;
+  padding-bottom: 100svh;
   -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
-  transform: translateZ(-0.7px) scale(1);
+  transform: translateY(-50svh);
 }
 
 /* section 2 */
@@ -111,7 +122,7 @@ html{
   background: linear-gradient(rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(/assets/img/items/DARLING_in_the_FRANXX-title-en.png) no-repeat center, #000;
   -webkit-background-size: contain;
   background-size: contain;
-  width: 100vw;
+  width: 100%;
   height: 150vh;
   padding: 50vh 1vw;
 }
@@ -197,7 +208,7 @@ html{
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 70vh;
 }
 
@@ -230,7 +241,7 @@ html{
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 70vh;
 }
 
@@ -262,7 +273,7 @@ html{
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 70vh;
 }
 
@@ -293,7 +304,7 @@ html{
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 70vh;
 }
 
@@ -324,7 +335,7 @@ html{
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 70vh;
 }
 
@@ -350,7 +361,7 @@ html{
 /* section 4 */
 
 .about{
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background: url('/assets/img/background/ditf_background_04.png') no-repeat center, #922323;
   -webkit-background-size: contain;

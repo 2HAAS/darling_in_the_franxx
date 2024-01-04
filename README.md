@@ -1,8 +1,8 @@
 # Darling In The Franxx
   
-<img src="/assets/img/banner.png" alt="Darling In The Franxx Webpage view" width="100%" height="100%"/>
+<img src="./assets/img/banner.png" alt="Darling In The Franxx Webpage view" width="100%" height="100%"/>
   
-This is an open source project and also everyone can reuse this design for there work. This site is made with pure **HTML5** and **CSS3**. Only a **JavaScript** file needed to insert inside of the *HTML* file to use icons from [**Ionic Ionicons**](https://ionic.io/ionicons/v4).
+This is an open source frontend project and also everyone can reuse this design for there work. This site is made with pure **HTML5**, **CSS3**. Also a **JavaScript** file needed to animate the scenes.
 
 ## Website Type
   
@@ -15,8 +15,8 @@ This site is made with *Paralax System* which worked fine to visualize the theme
   
 ## Want A Website?
   
-Do You Want A Website For Your Own? Why not have one for yourself **At Very Low Cost!** If you are also a little interested, [Contact Us](https://2haas.com/contact/) .
+Why not have one for yourself **At Very Low Cost!** If you are also a little interested, [Contact Us](https://2haas.com/contact/) .
   
 <h4 align="center">Don't know what kind of Website you need???</h4>
   
-Watch out this [**Templates**](https://jekyll.2haas.com) with a huge list of Open Source Website Templates...If You get stuck, 'what to do?', You can also get help from us to setup one of the Template for your own **FOR TOTALLY FREE!!!** [Contact For This](https://2haas.com/contact/) .
+Watch out this [**Templates**](https://jekyll.2haas.com) with a huge list of Open Source Website Templates...If You get stuck, You can also get help from us to setup one of the Template for your own **FOR TOTALLY FREE!!!** [Contact For This](https://2haas.com/contact/) .
